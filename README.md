@@ -9,7 +9,7 @@ Notes are filed by field using the [arXiv taxonomy](https://arxiv.org/category_t
 
 | Path | Title | Status | Date |
 | --- | --- | --- | --- |
-| [`cs/CC/hurwitz-sqrt2/`](cs/CC/hurwitz-sqrt2/note.md) | An $N^{\sqrt2+o(1)}$ upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction (cross-list: math.RA) | research note, not peer-reviewed | 2026-11-07 |
+| [`cs/CC/hurwitz-sqrt2/`](cs/CC/hurwitz-sqrt2/note.md) | An N^{√2+o(1)} upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction (cross-list: math.RA) | research note, not peer-reviewed | 2026-11-07 |
 
 ## Licenses
 
