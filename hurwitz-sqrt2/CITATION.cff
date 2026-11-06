@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this note, please cite it as below."
+title: "An N^sqrt(2)+o(1) upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction"
+authors:
+  - family-names: Siemaszko
+    given-names: Jacob
+date-released: 2026-11-07
+version: "0.1"
+license: CC-BY-4.0
+repository-code: "https://github.com/JacobSiemaszko/White-papers"
+abstract: >-
+  Theorem B of "A 2^{o(n)} Time Algorithm for 3-SAT" (Claude/Anthropic, Oct 2026)
+  decomposes the crossing [x=v][y=u] into pieces of low row- and column-rank.
+  Counting the rank-1 terms of that decomposition in the cheaper direction gives
+  P(N) <= N^{sqrt(2)+o(1)} for Naslund's crossing-width P(N), hence
+  B_Q(SOS_N) <= N^{sqrt(2)+o(1)} and sigma_C(N) <= N^{sqrt(2)+o(1)}, improving the
+  exponent 1.615 of Hrubes (CCC 2024). Research note, not peer-reviewed; depends
+  on the correctness of Theorem B.
