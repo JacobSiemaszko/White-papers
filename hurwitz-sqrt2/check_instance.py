@@ -175,11 +175,18 @@ def compositions_min(total, mins):
         for rest in compositions_min(total - first, mins[1:]):
             yield (first,) + rest
 
+_op_cache = {}
+
 def op(a, r, f):
-    """a[r] f for a polynomial a (linear in a)."""
+    """a[r] f for a polynomial a (linear in a).  Memoised: the same (a, r, f) recurs many times."""
+    key = (tuple(sorted(a.items())), r, tuple(sorted(f.items())))
+    hit = _op_cache.get(key)
+    if hit is not None:
+        return hit
     out = {}
     for mu, c in a.items():
         out = padd(out, op_monomial(mu, r, f), c)
+    _op_cache[key] = out
     return out
 
 def op_monomial_O2(mu, r, f):
