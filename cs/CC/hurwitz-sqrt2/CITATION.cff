@@ -7,7 +7,7 @@ authors:
 date-released: 2026-11-07
 version: "0.2"
 license: CC-BY-4.0
-doi: 10.5281/zenodo.24024690
+doi: 10.5281/zenodo.24024947
 repository-code: "https://github.com/JacobSiemaszko/White-papers"
 abstract: >-
   Theorem B of "A 2^{o(n)} Time Algorithm for 3-SAT" (Claude/Anthropic, Oct 2026)
