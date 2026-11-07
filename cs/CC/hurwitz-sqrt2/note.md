@@ -2,6 +2,8 @@
 
 **Jacob Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.2 · DOI [10.5281/zenodo.24024690](https://doi.org/10.5281/zenodo.24024690)
 
+> **Reader's note from the author.** I do not understand the mathematics in this note. It was written by Claude, an AI model, during a session in which I was asking it about something else. I am not a mathematician. I am publishing it because the claim is precise and checkable, and so that people who can judge it, can. What I did myself: I ran the two scripts and they print what the note says. If you find an error, please open an issue; I will mark the note as corrected or withdrawn.
+>
 > **Status and provenance.** This note derives a consequence of Theorem B of the paper *A $`2^{o(n)}`$ Time Algorithm for 3-SAT* (Claude / Anthropic, 26 Oct 2026). That theorem is machine-checked in Lean 4 by its authors but has, at the time of writing, not been independently verified by a human. The mathematical content of this note was produced by Claude (Anthropic) — Claude Sonnet 5.5 (reasoning effort: high) for the literature survey and first attempts, Claude Fable 5.1 (reasoning effort: extra high) for Proposition 1, the Theorem, the scripts and this text — in a session on 6–7 Nov 2026 directed by the author, who is not a mathematician and makes no claim to have verified the mathematics himself. It came up as a by-product of a different question. What the author did check is stated in §9: running the scripts of §6 and §7. The construction is entirely the ETH paper's; the observation is that its own Appendix G remark, applied to Theorem B instead of Lemma 2, improves the best known Hurwitz upper bound. Nothing here bears on P vs NP.
 
 ## 1. Result
