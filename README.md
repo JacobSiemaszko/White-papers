@@ -1,6 +1,6 @@
 # White-papers
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24024947.svg)](https://doi.org/10.5281/zenodo.24024947)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24024689.svg)](https://doi.org/10.5281/zenodo.24024689)
 The scientific questions that I like, researched and sometimes proven using AI.
 
 **Plain statement:** I am not a scientist in these fields. The notes here are written by AI models in sessions I direct; I usually cannot verify the content myself. Each note says exactly what the model did and what I did (normally: run the scripts). I publish them so that people who can judge them, can.
@@ -13,7 +13,7 @@ Notes are filed by field using the [arXiv taxonomy](https://arxiv.org/category_t
 
 | Path | Title | Status | Date |
 | --- | --- | --- | --- |
-| [`cs/CC/hurwitz-sqrt2/`](cs/CC/hurwitz-sqrt2/note.md) | An N^{√2+o(1)} upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction (cross-list: math.RA) | research note, not peer-reviewed; v0.2, DOI [10.5281/zenodo.24024947](https://doi.org/10.5281/zenodo.24024947) | 2026-11-07 |
+| [`cs/CC/hurwitz-sqrt2/`](cs/CC/hurwitz-sqrt2/note.md) | An N^{√2+o(1)} upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction (cross-list: math.RA) | research note, not peer-reviewed; v0.3, DOI (all versions) [10.5281/zenodo.24024689](https://doi.org/10.5281/zenodo.24024689) | 2026-11-07 |
 
 ## Licenses
 
