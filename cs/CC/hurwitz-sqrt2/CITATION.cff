@@ -5,7 +5,7 @@ authors:
   - family-names: Siemaszko
     given-names: Jacob
 date-released: 2026-11-07
-version: "0.1"
+version: "0.2"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.24024690
 repository-code: "https://github.com/JacobSiemaszko/White-papers"
