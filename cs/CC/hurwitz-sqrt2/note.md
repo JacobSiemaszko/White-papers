@@ -2,7 +2,7 @@
 
 **Jacob Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.1 · DOI [10.5281/zenodo.24024690](https://doi.org/10.5281/zenodo.24024690)
 
-> **Status.** This note derives a consequence of Theorem B of the paper *A $`2^{o(n)}`$ Time Algorithm for 3-SAT* (Claude / Anthropic, 26 Oct 2026). That theorem is machine-checked in Lean 4 by its authors but has, at the time of writing, not been independently verified by a human. The derivation below was worked out in a session with Claude (Anthropic) on 6–7 Nov 2026 — Claude Sonnet 5.5 (reasoning effort: high) for the literature survey and the first attempts, Claude Fable 5.1 (reasoning effort: extra high) for Proposition 1, the Theorem, the scripts and this text — and checked by me as described in §7; the construction is entirely the ETH paper's, the observation is that its own Appendix G remark, applied to Theorem B instead of Lemma 2, improves the best known Hurwitz upper bound. Nothing here bears on P vs NP.
+> **Status and provenance.** This note derives a consequence of Theorem B of the paper *A $`2^{o(n)}`$ Time Algorithm for 3-SAT* (Claude / Anthropic, 26 Oct 2026). That theorem is machine-checked in Lean 4 by its authors but has, at the time of writing, not been independently verified by a human. The mathematical content of this note was produced by Claude (Anthropic) — Claude Sonnet 5.5 (reasoning effort: high) for the literature survey and first attempts, Claude Fable 5.1 (reasoning effort: extra high) for Proposition 1, the Theorem, the scripts and this text — in a session on 6–7 Nov 2026 directed by the author, who is not a mathematician and makes no claim to have verified the mathematics himself. It came up as a by-product of a different question. What the author did check is stated in §9: running the scripts of §6 and §7. The construction is entirely the ETH paper's; the observation is that its own Appendix G remark, applied to Theorem B instead of Lemma 2, improves the best known Hurwitz upper bound. Nothing here bears on P vs NP.
 
 ## 1. Result
 
@@ -140,9 +140,9 @@ Let $`\gamma=\liminf\log_NP(N)`$ and $`\rho^{\ast}=\inf\{\rho:\text{pieces with 
 
 ## 9. What has and has not been checked
 
-Models: Claude Sonnet 5.5 (reasoning effort high) and Claude Fable 5.1 (reasoning effort extra high), claude.ai, 6–7 Nov 2026.
+Checked by the model (Claude Fable 5.1), reading the sources during the session: the definitions and counts in the ETH paper (Definitions 1, 5, 7; Lemma 2; Theorem A, B; (46), (53)–(56); Appendices G, H); HWY11 Lemma 3.5, Proposition 4.1 and Remark 1.5; Hrubeš's exponent $`1+2H(\alpha/2)`$; and it wrote and ran the scripts of §6 and §7.
 
-Checked: the definitions and counts in the ETH paper (Definitions 1, 5, 7; Lemma 2; Theorem A, B; (46), (53)–(56); Appendices G, H); HWY11 Lemma 3.5, Proposition 4.1 and Remark 1.5; Hrubeš's exponent $`1+2H(\alpha/2)`$; the numerics of §6; the instance check of §7.
+Checked by the author (Jacob Siemaszko): that `check_instance.py --lam 2` and `check_exponent.py` run on his machine and print the results reported in §6 and §7. The author has not verified the mathematical argument and does not claim to.
 
 Not checked: Theorem B in general (Lean-verified by its authors, with AI-written and AI-reviewed Lean code; no human is known to have checked it); whether this observation was made elsewhere between 26 Oct and 7 Nov 2026 (searches found nothing).
 

@@ -20,4 +20,4 @@ Notes are filed by field using the [arXiv taxonomy](https://arxiv.org/category_t
 
 ## Provenance
 
-These notes are worked out in sessions with AI models (named in each note) and checked by me as described in each note's "What has and has not been checked" section. Results depend on the sources they cite; errors are mine. Corrections and counterexamples are welcome as issues.
+These notes are produced by AI models (named in each note) in sessions I direct. I am not a mathematician; what I check myself is stated in each note's "What has and has not been checked" section, usually that the scripts run and reproduce the reported numbers. Results depend on the sources they cite. Corrections and counterexamples are welcome as issues; I will mark a note as withdrawn or corrected if one holds.
