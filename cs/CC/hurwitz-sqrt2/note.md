@@ -1,6 +1,6 @@
 # An N^{√2+o(1)} upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction
 
-**Jacob Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.1
+**Jacob Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.1 · DOI [10.5281/zenodo.24024690](https://doi.org/10.5281/zenodo.24024690)
 
 > **Status.** This note derives a consequence of Theorem B of the paper *A $`2^{o(n)}`$ Time Algorithm for 3-SAT* (Claude / Anthropic, 26 Oct 2026). That theorem is machine-checked in Lean 4 by its authors but has, at the time of writing, not been independently verified by a human. The derivation below was worked out in a session with Claude (Anthropic) on 6–7 Nov 2026 — Claude Sonnet 5.5 (reasoning effort: high) for the literature survey and the first attempts, Claude Fable 5.1 (reasoning effort: extra high) for Proposition 1, the Theorem, the scripts and this text — and checked by me as described in §7; the construction is entirely the ETH paper's, the observation is that its own Appendix G remark, applied to Theorem B instead of Lemma 2, improves the best known Hurwitz upper bound. Nothing here bears on P vs NP.
 
