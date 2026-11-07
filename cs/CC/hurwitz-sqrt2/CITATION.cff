@@ -3,9 +3,9 @@ message: "If you use this note, please cite it as below."
 title: "An N^sqrt(2)+o(1) upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction"
 authors:
   - family-names: Siemaszko
-    given-names: Jacob
+    given-names: "Jakub Piotr"
 date-released: 2026-11-07
-version: "0.2"
+version: "0.3"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.24024947
 repository-code: "https://github.com/JacobSiemaszko/White-papers"

@@ -1,6 +1,6 @@
 # An N^{√2+o(1)} upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction
 
-**Jacob Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.2 · DOI [10.5281/zenodo.24024947](https://doi.org/10.5281/zenodo.24024947)
+**Jakub Piotr Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.3 · DOI [10.5281/zenodo.24024947](https://doi.org/10.5281/zenodo.24024947)
 
 > **Reader's note from the author.** I do not understand the mathematics in this note. It was written by Claude, an AI model, during a session in which I was asking it about something else. I am not a mathematician. I am publishing it because the claim is precise and checkable, and so that people who can judge it, can. What I did myself: I ran the two scripts and they print what the note says. If you find an error, please open an issue; I will mark the note as corrected or withdrawn.
 >
@@ -144,7 +144,7 @@ Let $`\gamma=\liminf\log_NP(N)`$ and $`\rho^{\ast}=\inf\{\rho:\text{pieces with 
 
 Checked by the model (Claude Fable 5.1), reading the sources during the session: the definitions and counts in the ETH paper (Definitions 1, 5, 7; Lemma 2; Theorem A, B; (46), (53)–(56); Appendices G, H); HWY11 Lemma 3.5, Proposition 4.1 and Remark 1.5; Hrubeš's exponent $`1+2H(\alpha/2)`$; and it wrote and ran the scripts of §6 and §7.
 
-Checked by the author (Jacob Siemaszko): that `check_instance.py --lam 2` and `check_exponent.py` run on his machine and print the results reported in §6 and §7. The author has not verified the mathematical argument and does not claim to.
+Checked by the author (Jakub Piotr Siemaszko): that `check_instance.py --lam 2` and `check_exponent.py` run on his machine and print the results reported in §6 and §7. The author has not verified the mathematical argument and does not claim to.
 
 Not checked: Theorem B in general (Lean-verified by its authors, with AI-written and AI-reviewed Lean code; no human is known to have checked it); whether this observation was made elsewhere between 26 Oct and 7 Nov 2026 (searches found nothing).
 
