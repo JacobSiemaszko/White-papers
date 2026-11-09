@@ -5,7 +5,7 @@ authors:
   - family-names: Siemaszko
     given-names: "Jakub Piotr"
 date-released: 2026-11-07
-version: "0.4"
+version: "0.5"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.24024689
 repository-code: "https://github.com/JacobSiemaszko/White-papers"

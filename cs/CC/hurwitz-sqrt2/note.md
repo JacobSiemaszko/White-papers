@@ -1,6 +1,6 @@
 # An N^{√2+o(1)} upper bound for Hurwitz's sum-of-squares problem from the ETH-refutation construction
 
-**Jakub Piotr Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.4 · DOI (all versions) [10.5281/zenodo.24024689](https://doi.org/10.5281/zenodo.24024689)
+**Jakub Piotr Siemaszko** · 7 November 2026 · research note, not peer-reviewed · v0.5 · DOI (all versions) [10.5281/zenodo.24024689](https://doi.org/10.5281/zenodo.24024689)
 
 Plain-language explanation: see [explainer.md](explainer.md).
 
@@ -128,7 +128,7 @@ The limit $`\sqrt2`$ follows from the proof; the table only confirms direction a
 5. the term counts $`R_s^{\mathrm{row}},R_s^{\mathrm{col}}`$ of (54)/(55) against the formulas in §4;
 6. the resulting Hurwitz identity $`h!\,(\sum x_i^2)(\sum y_j^2)=\sum_kf_kf_k'`$ as an exact polynomial identity in $`2N`$ variables.
 
-Result for $`\lambda=2`$ ($`N=4`$, $`h=4`$, $`d=24`$): all six checks pass; the identity uses $`307`$ products over $`\mathbb Z`$. (At such small $`N`$ the count is of course far above $`N^2`$; the construction is asymptotic and only overtakes Hrubeš's bound near $`\lambda\approx70`$.) This makes the translation in §4 independent of the Lean development for the instances checked; it does not verify Theorem B in general.
+Result for $`\lambda=2`$ ($`N=4`$, $`h=4`$, $`d=24`$): all six checks pass; the identity uses $`307`$ products over $`\mathbb Z`$. (At such small $`N`$ the count is of course far above $`N^2`$; the construction is asymptotic and only overtakes Hrubeš's bound near $`\lambda\approx70`$.) Result for $`\lambda=3`$ ($`N=8`$, $`h=6`$, $`d=720`$): all six checks pass, including the full check (1) against (O2); the identity uses $`1508`$ products over $`\mathbb Z`$ (again far above $`N^2=64`$, for the same reason). This makes the translation in §4 independent of the Lean development for the instances checked; it does not verify Theorem B in general.
 
 ## 8. Relation to Naslund's problem and to the ETH method
 
@@ -146,7 +146,7 @@ Let $`\gamma=\liminf\log_NP(N)`$ and $`\rho^{\ast}=\inf\{\rho:\text{pieces with 
 
 Checked by the model (Claude Fable 5.1), reading the sources during the session: the definitions and counts in the ETH paper (Definitions 1, 5, 7; Lemma 2; Theorem A, B; (46), (53)–(56); Appendices G, H); HWY11 Lemma 3.5, Proposition 4.1 and Remark 1.5; Hrubeš's exponent $`1+2H(\alpha/2)`$; and it wrote and ran the scripts of §6 and §7.
 
-Checked by the author (Jakub Piotr Siemaszko): that `check_instance.py --lam 2` and `check_exponent.py` run on his machine and print the results reported in §6 and §7. The author has not verified the mathematical argument and does not claim to.
+Checked by the author (Jakub Piotr Siemaszko): that `check_instance.py --lam 2`, `check_instance.py --lam 3` (without `--skip-O2`) and `check_exponent.py` run on his machine and print the results reported in §6 and §7 (the $`\lambda=3`$ run on 9 Nov 2026). The author has not verified the mathematical argument and does not claim to.
 
 Not checked: Theorem B in general (Lean-verified by its authors, with AI-written and AI-reviewed Lean code; no human is known to have checked it); whether this observation was made elsewhere between 26 Oct and 7 Nov 2026 (searches found nothing).
 

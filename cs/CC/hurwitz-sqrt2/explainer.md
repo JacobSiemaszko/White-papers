@@ -48,6 +48,6 @@ In October 2026 an AI model (Claude) published a fast algorithm for a hard compu
 
 ## Who did what
 
-The mathematics was produced by AI models (Claude Sonnet 5.5 and Claude Fable 5.1) in sessions directed by Jakub Piotr Siemaszko, who is not a mathematician and cannot judge the argument himself. What he did check: the two scripts run and print the numbers the note reports. One script verifies the whole construction exactly in the smallest case ($N=4$, 307 products). The other computes the table above.
+The mathematics was produced by AI models (Claude Sonnet 5.5 and Claude Fable 5.1) in sessions directed by Jakub Piotr Siemaszko, who is not a mathematician and cannot judge the argument himself. What he did check: the two scripts run and print the numbers the note reports. One script verifies the whole construction exactly in the two smallest cases ($N=4$ with 307 products, and $N=8$ with 1508 products). The other computes the table above.
 
 If you can tell that something here is wrong, already known, or worth following up, please open an issue.
